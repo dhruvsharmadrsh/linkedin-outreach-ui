@@ -1,6 +1,6 @@
 import React from 'react';
 import { Header, StatsCard } from '../components';
-import { TrendingUp, TrendingDown, Minus } from 'lucide-react';
+import { TrendingUp } from 'lucide-react';
 
 export const Analytics: React.FC = () => {
     // Mock funnel data

@@ -19,7 +19,7 @@ interface WorkflowVisualizerProps {
     nodes: WorkflowNode[];
 }
 
-const iconMap: Record<string, React.FC<{ size?: number; color?: string; className?: string }>> = {
+const iconMap: Record<string, React.ElementType> = {
     Search,
     Building2,
     Globe,

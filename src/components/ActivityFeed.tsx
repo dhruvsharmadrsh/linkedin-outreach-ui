@@ -13,7 +13,7 @@ interface ActivityFeedProps {
     activities: Activity[];
 }
 
-const iconMap: Record<Activity['type'], React.FC<{ size?: number; color?: string }>> = {
+const iconMap: Record<Activity['type'], React.ElementType> = {
     lead_found: UserPlus,
     message_sent: Send,
     response_received: MessageSquare,
